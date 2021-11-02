@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#font {
+    border-top: 0.8rem solid #cfcfcf;
+    border-right: 0.8rem solid #cfcfcf;
+    border-bottom: 0.4rem solid #cfcfcf;
+    border-left: 0.4rem solid #cfcfcf;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+#left_menu  {
+    display: inline-block;
+    width: 70%;
+}
+.bloc_left {
+    display: inline-block;
+    width: 100%;
+    height: 15rem;
+}
+
+#name {
+    display: inline-block;
+    width: 66.6%;
+    float: left;
+    height: 100%;
+    background-color: gray;
+}
+
+.bloc_small {
+    display: inline-block;
+    width: 33.1%;
+    height: 100%;
+}
+
+.bloc_small:hover {
+    color: #cfcfcf;
+    box-shadow: 0.3rem 0.5rem rgba(0, 0, 0, 0.31);
+}
+
+#profil {
+    background-color: gainsboro;
+}
+
+#experience {
+    background-color: beige;
+}
+
+#education {
+    background-color: antiquewhite;
+}
+
+#blog {
+    background-color: lightsalmon;
+}
+
+#social_menu {
+    background-color: lemonchiffon;
+}
+
+#contact {
+    background-color: #efd696;
+}
+
+#portfolio {
+    background-color: #ffc47d;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-size: 2.5rem;
+}
+
+p {
+    white-space: pre;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration-line: none;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.42);
+}
+
+.lien_border {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.lien_border:hover {
+    color: black;
+}
+
+#resume {
+    margin-left: 5.5rem;
+    margin-right: 0.5rem;
+}
+
+a > i {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: black;
+}
+
+.center {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+i {
+    margin-left: 46%;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+    cursor: pointer;
+}
+
+#right_menu {
+    display: inline-block;
+    width: 30%;
+    height: 45rem;
+    float: right;
+    border: 1px solid black;
+    background-image: url("https://donkey.school/wp-content/uploads/2021/06/compatible-developpeur-web-et-moi-1024x1024.jpg");
+    background-size: cover;
+}
+
+#fleche {
+    display: inline-block;
+    width: 100%;
+    margin-top: 17rem;
+}
+
+.span_fleche {
+    display: inline-block;
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+}
+
+#span_left {
+    float: left;
+}
+
+#span_right {
+    float: right;
+}
+
+span {
+    color: white;
+    font-size: 3rem;
+}
+
+#point {
+    display: inline-block;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
