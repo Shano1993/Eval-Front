@@ -6,8 +6,11 @@
     padding: 0;
 }
 
-body {
+html {
     font-size: 62.5%;
+}
+
+body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -28,7 +31,7 @@ body {
 .bloc_left {
     display: inline-block;
     width: 100%;
-    height: 15rem;
+    height: 22.5rem;
 }
 
 #name {
@@ -87,7 +90,7 @@ h1 {
 
 p {
     white-space: pre;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 a {
@@ -98,7 +101,7 @@ a {
 
 .lien_border {
     border: 1px solid black;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .lien_border:hover {
@@ -106,8 +109,8 @@ a {
 }
 
 #resume {
-    margin-left: 5.5rem;
-    margin-right: 0.5rem;
+    margin-left: 9rem;
+    margin-right: 1rem;
 }
 
 a > i {
@@ -125,7 +128,7 @@ a > i {
 
 i {
     margin-left: 46%;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 0.8rem;
 }
 
@@ -140,7 +143,7 @@ i {
 #right_menu {
     display: inline-block;
     width: 30%;
-    height: 45rem;
+    height: 67.5rem;
     float: right;
     border: 1px solid black;
     background-image: url("https://donkey.school/wp-content/uploads/2021/06/compatible-developpeur-web-et-moi-1024x1024.jpg");
@@ -150,10 +153,10 @@ i {
 #fleche {
     display: inline-block;
     width: 100%;
-    margin-top: 17rem;
+    margin-top: 36rem;
 }
 
-.span_fleche {
+.lien_fleche {
     display: inline-block;
     width: 10%;
     border: 2px solid white;
@@ -161,17 +164,14 @@ i {
     padding-left: 0.5rem;
 }
 
-#span_left {
+#a_left {
     float: left;
+    margin-left: 1rem;
 }
 
-#span_right {
+#a_right {
     float: right;
-}
-
-span {
-    color: white;
-    font-size: 3rem;
+    margin-right: 1rem;
 }
 
 #point {
@@ -180,6 +180,16 @@ span {
     margin-top: 1rem;
     margin-right: 1rem;
     color: white;
+}
+
+.a_fleche {
+    font-size: 3rem;
+    color: white;
+}
+
+span {
+    color: white;
+    font-size: 5rem;
 }
 
 
